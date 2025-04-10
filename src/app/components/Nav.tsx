@@ -11,6 +11,8 @@ export default function Nav(){
         <Link href={'/hello'} className={pathName==='/hello'?'font-bold':''}>Go to Hello</Link>
         <Link href={'/renderings'} className={pathName==='/renderings'?'font-bold':''}>Renderings</Link>
         <Link href={'/counter'} className={pathName==='/counter'?'font-bold':''}>Counter</Link>
+            <Link href={'/contacts'} className={pathName==='/contacts'?'font-bold':''}>Contacts</Link>
+
         </nav>
     );
 }
